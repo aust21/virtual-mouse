@@ -14,6 +14,7 @@ Drag and drop program
 
 - Python 3.8
 - OpenCV
+- jupyter notebook
 
 clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
 
@@ -39,6 +40,10 @@ source venv/bin/activate
 ```
 
 install the required modules
+
+```
+pip install jupyter
+```
 
 ```
 pip3.8 install -r requirements.txt
