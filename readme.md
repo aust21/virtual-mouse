@@ -12,7 +12,7 @@ Drag and drop program
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.8
 - OpenCV
 
 clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
