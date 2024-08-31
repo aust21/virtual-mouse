@@ -57,7 +57,7 @@ Run the program
 jupyter nbconvert --to notebook --execute main.ipynb
 ```
 ### Gesture controls:
-To drag a box: Bring your index and middle fingers close together
+To drag a box: Bring your index and middle fingers close together  
 To drop a box: Separate your index and middle fingers
 
 ## Troubleshooting
