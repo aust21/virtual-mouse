@@ -4,7 +4,7 @@ Drag and drop program
 
 ## Features
 
-- Real-Time hand detection.
+- Real-time hand detection.
 
 - Cross-Platform Support: Runs on Windows, macOS, and Linux.
 
@@ -19,10 +19,10 @@ clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/ref
 
 ```
 git clone https://github.com/aust21/drag-and-drop
-cd video-filters
+cd drag-and-drop
 ```
 
-### Set up virtual environment
+### Set up a virtual environment
 
 For Windows
 
@@ -41,7 +41,7 @@ source venv/bin/activate
 install the required modules
 
 ```
-pip install -r requirements.txt
+pip3.8 install -r requirements.txt
 ```
 
 ## Usage
