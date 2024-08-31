@@ -1,20 +1,21 @@
-# Drag and drop
+# Drag and Drop
 
-Drag and drop program
+A real-time hand detection program for intuitive drag and drop interactions.
 
 ## Features
 
-- Real-time hand detection.
-
+- Real-time hand detection for interactive drag and drop functionality
+- Intuitive gesture controls: use finger positions to drag and release objects
 - Cross-Platform Support: Runs on Windows, macOS, and Linux.
 
 ## Installation
 
 ### Prerequisites
+Before you begin, ensure you have the following installed
 
 - Python 3.8
 - OpenCV
-- jupyter notebook
+- Anaconda or jupyter notebook
 
 clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
 
@@ -55,18 +56,26 @@ Run the program
 ```
 jupyter nbconvert --to notebook --execute main.ipynb
 ```
-- To drag a box: put your index and middle fingers closely together
-- To drop(let go) of the box: separate the fingers really far apart
-### If you face any issues with jupyter extensions, try:
+### Gesture controls:
+To drag a box: Bring your index and middle fingers close together
+To drop a box: Separate your index and middle fingers
+
+## Troubleshooting
+If you encounter issues with Jupyter extensions, try the following:
+
+1. Uninstall the problematic extension:
 ```
 pip3.8 uninstall jupyter_contrib_nbextensions
 ```
-Reattempt to run the application
+
+2. Reattempt to run the application
 ```
 jupyter nbconvert --to notebook --execute main.ipynb
 ```
+If problems persist, please open an issue on the GitHub repository.
 
 
 ## Acknowledgments
-- [opencv](https://opencv.org/) for the powerful computer vision library.
-- MediaPipe
+- OpenCV for providing a powerful computer vision library
+- MediaPipe for advanced hand-tracking capabilities
+- The open-source community for continuous support and contributions
