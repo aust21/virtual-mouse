@@ -52,7 +52,7 @@ jupyter nbconvert --to notebook --execute main.ipynb
 ```
 - To drag a box: put your index and middle fingers closely together
 - To drop(let go) of the box: separate the fingers really far apart
- If you face any issues with jupyter extensions, try:
+### If you face any issues with jupyter extensions, try:
 ```
 pip3.8 uninstall jupyter_contrib_nbextensions
 ```
