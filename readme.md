@@ -13,9 +13,7 @@ A real-time hand detection program for intuitive drag and drop interactions.
 ### Prerequisites
 Before you begin, ensure you have the following installed
 
-- Python 3.8
-- OpenCV
-- Anaconda or jupyter notebook
+- Python3
 
 clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
 
@@ -26,8 +24,9 @@ cd drag-and-drop
 
 ### Set up a virtual environment
 
-For Windows
+1. Create a virtual environment
 
+For Windows
 ```
 python -m venv venv
 venv\Scripts\activate
@@ -40,14 +39,10 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-install the required modules
+2. Install the required modules
 
 ```
-pip install jupyter
-```
-
-```
-pip3.8 install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
@@ -57,15 +52,16 @@ Run the program
 jupyter nbconvert --to notebook --execute main.ipynb
 ```
 ### Gesture controls:
-To drag a box: Bring your index and middle fingers close together  
-To drop a box: Separate your index and middle fingers
+- Put your hand in view of the camera
+- Move your hand to control the mouse
+- Bring your index and thumb together to click
 
 ## Troubleshooting
 If you encounter issues with Jupyter extensions, try the following:
 
 1. Uninstall the problematic extension:
 ```
-pip3.8 uninstall jupyter_contrib_nbextensions
+pip3 uninstall jupyter_contrib_nbextensions
 ```
 
 2. Reattempt to run the application
