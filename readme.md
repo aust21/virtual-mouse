@@ -15,7 +15,7 @@ Before you begin, ensure you have the following installed
 
 - Python3
 
-clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
+Clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
 
 ```
 git clone https://github.com/aust21/drag-and-drop
@@ -38,8 +38,12 @@ For Linux / mac
 python3 -m venv venv
 source venv/bin/activate
 ```
-
-2. Install the required modules
+2. Create a kernel
+```bash
+python3 -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
+```
+ 
+3. Install the required modules
 
 ```
 pip3 install -r requirements.txt
