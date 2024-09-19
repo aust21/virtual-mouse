@@ -56,9 +56,10 @@ Run the program
 jupyter nbconvert --to notebook --execute main.ipynb
 ```
 ### Gesture controls:
-As of yet, you can only move the cursor
-- Put index finger in view of the camera
-- Give the program a high five to quit (all fingers raised)
+
+- Show your index finger to the camera to interact
+- Raise all fingers (give a high five) to exit the program
+- Hold your index and middle fingers close together to perform a click
 
 ## Troubleshooting
 If you encounter issues with Jupyter extensions, try the following:
