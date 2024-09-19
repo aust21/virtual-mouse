@@ -15,7 +15,7 @@ Before you begin, ensure you have the following installed
 
 - Python3
 
-Clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
+1. Clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
 
 ```
 git clone https://github.com/aust21/drag-and-drop
@@ -56,9 +56,8 @@ Run the program
 jupyter nbconvert --to notebook --execute main.ipynb
 ```
 ### Gesture controls:
-- Put your hand in view of the camera
-- Move your hand to control the mouse
-- Bring your index and thumb together to click
+- Put index finger in view of the camera
+- Give the program a high five to quit (all fingers )
 
 ## Troubleshooting
 If you encounter issues with Jupyter extensions, try the following:
