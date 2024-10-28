@@ -1,11 +1,11 @@
 # Drag and Drop
 
-A real-time hand detection program for intuitive drag and drop interactions.
+A real-time hand detection program for intuitive mouse interactions.
 
 ## Features
 
-- Real-time hand detection for interactive drag and drop functionality
-- Intuitive gesture controls: use finger positions to drag and release objects
+- Real-time hand detection for interactive mouse control functionality
+- Intuitive gesture controls: use finger positions to drag, release objects, and click
 - Cross-Platform Support: Runs on Windows, macOS, and Linux.
 
 ## Installation
