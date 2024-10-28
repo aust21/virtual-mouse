@@ -1,4 +1,4 @@
-# Drag and Drop
+# Virtual mouse
 
 A real-time hand detection program for intuitive mouse interactions.
 
@@ -15,11 +15,11 @@ Before you begin, ensure you have the following installed
 
 - Python3
 
-1. Clone the repo or [download](https://github.com/aust21/drag-and-drop/archive/refs/heads/main.zip)
+1. Clone the repo or [download](https://github.com/aust21/virtual-mouse/archive/refs/heads/main.zip)
 
 ```
-git clone https://github.com/aust21/drag-and-drop
-cd drag-and-drop
+git clone https://github.com/aust21/virtual-mouse
+cd virtual-mouse
 ```
 
 ### Set up a virtual environment
